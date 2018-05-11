@@ -1,16 +1,15 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ZipCode = require('../ZipCode/ZipCode');
+var Header = require('../header/Header')
 
 
 class App extends React.Component {
   render() {
     return (
       <div className='container'>
-        <div>
-          <h1>Main Header</h1>
-        </div>
-        <div className='home-container' style={{ backgroundImage: "url('app/images/pattern.svg')" }}>
+        <Header />
+        <div className='home-container' style={{ backgroundImage: "url('../../../app/images/pattern.svg')" }}>
           <h1 className='header'>Enter a City and State</h1>
           <ZipCode
             direction='column'

@@ -46,3 +46,5 @@ ZipCode.propTypes = {
   direction: PropTypes.string,
 }
 
+
+module.exports = ZipCode
