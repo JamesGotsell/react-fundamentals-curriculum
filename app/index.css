@@ -74,15 +74,16 @@ body {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.header {
+.top-header {
   display: flex;
   justify-content: space-between;
+  background-color: orange;
   font-weight: 100;
 } 
-
-.header > h2 {
-  color:black;
+.title {
+  margin-left: 2rem;
+  color: white;
 }
-.header > .zipcode-container {
+.top-header > .zipcode-container {
   flex-direction: row !important;
 }
